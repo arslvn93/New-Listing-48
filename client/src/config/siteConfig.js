@@ -1,14 +1,3 @@
-
-//heroVideo configuration - comment out to use fallback image
-export const heroVideo = {
-  url: "https://www.yudiz.com/codepen/studio-r/bg-video.mp4",
-  type: "video/mp4",
-  autoplay: true,
-  loop: true,
-  muted: true,
-  playsInline: true
-};
-
 // contactInfo configuration
 export const contactInfo = {
   agent: {
@@ -17,7 +6,7 @@ export const contactInfo = {
     phone: "(416) 655-4850",
     email: "arslan@salesgenius.co",
     company: "Executive Homes Realty Inc",
-    license: "RECO #84397152"
+    license: "RECO #72841539"
   },
   social: {
     instagram: "https://instagram.com/executivehomesrealtyinc",
@@ -32,32 +21,62 @@ export const galleryImages = [
   {
     id: 1,
     src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1757004589506-2912-80 John St-01.jpg",
-    alt: "Open concept living room with floor-to-ceiling windows at 80 John St #2912",
-    category: "interior"
+    alt: "80 John St Unit 2912, Toronto - modern tower exterior view",
+    category: "exterior"
   },
   {
     id: 2,
     src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1757004602781-2912-80 John St-04.jpg",
-    alt: "Living and dining area with southeast light at 80 John St #2912",
+    alt: "Open concept living room with floor-to-ceiling glass at 80 John St Unit 2912, Toronto",
     category: "interior"
   },
   {
     id: 3,
     src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1757004609515-2912-80 John St-14.jpg",
-    alt: "Gourmet kitchen with enlarged island and built-in power at 80 John St #2912",
-    category: "kitchen"
+    alt: "Dining and living space with southeast exposure at 80 John St Unit 2912, Toronto",
+    category: "interior"
   },
   {
     id: 4,
     src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1757004627198-2912-80 John St-20.jpg",
-    alt: "Primary bedroom with skyline outlook at 80 John St #2912",
-    category: "bedroom"
+    alt: "Gourmet kitchen with enlarged island and storage at 80 John St Unit 2912, Toronto",
+    category: "kitchen"
   },
   {
     id: 5,
     src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1757004643105-2912-80 John St-11.jpg",
-    alt: "Luxury bathroom with floor-to-ceiling tile and modern fixtures at 80 John St #2912",
+    alt: "Luxury bathroom with floor-to-ceiling tile and modern fixtures at 80 John St Unit 2912, Toronto",
     category: "bathroom"
+  },
+  {
+    id: 6,
+    src: "https://images.unsplash.com/photo-1600047509807-f8e8e01a8d26?auto=format&fit=crop&w=1600&q=80",
+    alt: "80 John St Unit 2912, Toronto - building exterior and urban streetscape",
+    category: "exterior"
+  },
+  {
+    id: 7,
+    src: "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1600&q=80",
+    alt: "Gourmet kitchen with premium appliances at 80 John St Unit 2912, Toronto",
+    category: "kitchen"
+  },
+  {
+    id: 8,
+    src: "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&w=1600&q=80",
+    alt: "Primary bedroom with ample light at 80 John St Unit 2912, Toronto",
+    category: "bedroom"
+  },
+  {
+    id: 9,
+    src: "https://images.unsplash.com/photo-1600585154526-990dced4db3d?auto=format&fit=crop&w=1600&q=80",
+    alt: "Luxury bathroom with modern vanity at 80 John St Unit 2912, Toronto",
+    category: "bathroom"
+  },
+  {
+    id: 10,
+    src: "https://images.unsplash.com/photo-1580237072617-771c3ecc4a24?auto=format&fit=crop&w=1600&q=80",
+    alt: "Flexible interior space with clean sightlines at 80 John St Unit 2912, Toronto",
+    category: "interior"
   }
 ];
 
@@ -66,65 +85,79 @@ export const homeShowcaseSections = [
   {
     id: "section1",
     title: "Glass-Framed Living",
-    description: "An airy open-concept living and dining space wrapped in true floor-to-ceiling windows delivers dramatic light, clean sightlines, and effortless flow for everyday comfort and entertaining.",
-    imageUrl: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1757004643105-2912-80 John St-11.jpg"
+    description: "An uninterrupted wall of true floor-to-ceiling windows floods the open living/dining with southeast light, creating dramatic sightlines and an ideal setting for everyday comfort and entertaining.",
+    imageUrl: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1757004602781-2912-80 John St-04.jpg"
   },
   {
     id: "section2",
     title: "Culinary Haven",
-    description: "Custom 2021 kitchen with enlarged island, storage on the seating side, and built-in outlet—perfect for prep, laptops, and hosting—finished with cohesive designer materials and fixtures.",
-    imageUrl: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1757004602781-2912-80 John St-04.jpg"
+    description: "A custom 2021 kitchen centers on an enlarged island with seating-side storage and a built-in outlet	6perfect for cooking, laptops, and hosting. Cohesive finishes elevate the modern, functional design.",
+    imageUrl: "https://www.yudiz.com/codepen/studio-r/bg-kitchen.jpg"
   },
   {
     id: "section3",
-    title: "Primary Retreat",
-    description: "Quiet, well-proportioned bedroom offers serene rest with bright southeast light and easy access to a beautifully retiled bathroom featuring modern fixtures and floor-to-ceiling tile.",
-    imageUrl: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1757004609515-2912-80 John St-14.jpg"
+    title: "Private Retreat",
+    description: "Relax in a serene primary bedroom enhanced by soft southeast light and access to a spa-like, fully retiled bathroom featuring modern fixtures and thoughtful storage.",
+    imageUrl: "https://www.yudiz.com/codepen/studio-r/bg-badroom.jpg"
   },
   {
     id: "section4",
     title: "Productive Workspace",
-    description: "A true den separates work from life—ideal for focused WFH, a guest nook, or reading lounge—without compromising the openness of the main living area.",
-    imageUrl: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1757004643105-2912-80 John St-11.jpg"
+    description: "A true den offers a quiet, separate work zone or guest space without sacrificing the main living area	6ideal for hybrid schedules and overnight visitors.",
+    imageUrl: "https://www.yudiz.com/codepen/studio-r/bg-office.jpg"
   }
 ];
+
+// neighborhood configuration (drives NeighborhoodOverview descriptive copy)
+export const neighborhood = {
+  name: "Entertainment District",
+  city: "Toronto",
+  description: "Torontos Entertainment District blends theatre, dining, and culture with unmatched urban convenience. Steps to TTC, the Financial District, and King Streets best restaurants, its a dynamic, walk-everywhere address for executives and creatives.",
+  highlights: [
+    "Walk to theatres, TIFF Lightbox, dining, and nightlife",
+    "Quick TTC access: King streetcar and St Andrew Station",
+    "Minutes to Financial District and PATH",
+    "Protected bike lanes on Richmond/Adelaide",
+    "Vibrant urban lifestyle with year-round events"
+  ]
+};
 
 // neighborhoodAmenities configuration
 export const neighborhoodAmenities = [
   {
     id: 1,
-    name: "Rabba Fine Foods King West",
-    distance: "0.2 miles",
+    name: "CF Toronto Eaton Centre",
+    distance: "0.6 miles",
     category: "shopping",
     iconName: "ShoppingBag"
   },
   {
     id: 2,
+    name: "Rabba Fine Foods - John St",
+    distance: "0.2 miles",
+    category: "shopping",
+    iconName: "Store"
+  },
+  {
+    id: 3,
     name: "David Pecaut Square",
     distance: "0.1 miles",
     category: "recreation",
     iconName: "Leaf"
   },
   {
-    id: 3,
-    name: "Ogden Junior Public School (TDSB)",
-    distance: "0.6 miles",
-    category: "education",
-    iconName: "School"
-  },
-  {
     id: 4,
-    name: "Byblos Toronto",
-    distance: "0.2 miles",
-    category: "dining",
-    iconName: "Wine"
+    name: "Roundhouse Park",
+    distance: "0.5 miles",
+    category: "recreation",
+    iconName: "Activity"
   },
   {
     id: 5,
-    name: "Momofuku Noodle Bar",
-    distance: "0.4 miles",
-    category: "dining",
-    iconName: "Utensils"
+    name: "Ogden Junior Public School (TDSB)",
+    distance: "0.5 miles",
+    category: "education",
+    iconName: "School"
   },
   {
     id: 6,
@@ -135,17 +168,31 @@ export const neighborhoodAmenities = [
   },
   {
     id: 7,
-    name: "The Adelaide Club",
-    distance: "0.5 miles",
+    name: "Byblos - Mediterranean Dining",
+    distance: "0.2 miles",
+    category: "dining",
+    iconName: "Utensils"
+  },
+  {
+    id: 8,
+    name: "Momofuku Noodle Bar",
+    distance: "0.3 miles",
+    category: "dining",
+    iconName: "Wine"
+  },
+  {
+    id: 9,
+    name: "Metro Hall Community Centre",
+    distance: "0.1 miles",
     category: "recreation",
     iconName: "Users"
   },
   {
-    id: 8,
-    name: "PATH Financial District",
-    distance: "0.4 miles",
+    id: 10,
+    name: "Financial District Hub",
+    distance: "0.6 miles",
     category: "business",
-    iconName: "Building"
+    iconName: "Briefcase"
   }
 ];
 
@@ -155,7 +202,7 @@ export const neighborhoodStats = [
     id: 1,
     title: "Walk Score",
     value: "95/100",
-    caption: "Walker\'s Paradise",
+    caption: "Walker's Paradise",
     iconName: "BadgeCheck",
     color: "bg-green-500"
   },
@@ -191,7 +238,7 @@ export const openHouseDetails = {
   time: "1:00 PM - 4:00 PM",
   host: "Arslan Ahmed",
   phone: "(416) 655-4850",
-  email: "info@80john.com",
+  email: "info@80johnst.com",
   ctaText: "RSVP for Open House",
   virtualTourAvailable: true,
   virtualTourUrl: "https://tours.openhousemedia.ca/sites/80-john-st-2912-toronto-on-m5v-3x4-15850296/branded"
@@ -202,43 +249,43 @@ export const packageItems = [
   {
     id: 1,
     title: "Detailed Floor Plans",
-    description: "Complete architectural layouts showing the 2 bedroom, 2 bathroom + den configuration with precise measurements and optimal room flow.",
+    description: "Complete architectural layouts showing the 2-bedroom + den, 2-bathroom configuration with precise measurements and optimal room flow.",
     iconName: "FileText"
   },
   {
     id: 2,
     title: "Recent Neighborhood Sales",
-    description: "Comparative market analysis of recent Condo Apartment sales in the Entertainment District, showing strong demand for larger, renovated suites.",
+    description: "Comparative market analysis of recent condo apartment sales in the Entertainment District, demonstrating strong demand and current market positioning.",
     iconName: "BarChart2"
   },
   {
     id: 3,
     title: "School District Information",
-    description: "Comprehensive overview of TDSB and TCDSB options nearby, including Ogden Junior Public School and local secondary programs with ratings and enrollment details.",
+    description: "Comprehensive overview of TDSB and TCDSB options with local school ratings, catchment details, and enrollment information.",
     iconName: "GraduationCap"
   },
   {
     id: 4,
     title: "Property Feature List",
-    description: "Detailed inventory highlighting true floor-to-ceiling windows without bulkheads, cohesive $90K 2021 kitchen and bath renovation, and enlarged island with seating-side storage and built-in outlet.",
+    description: "Detailed inventory highlighting true floor-to-ceiling glazing (no bulkheads), the cohesive $90K 2021 renovation, and the enlarged island with seating-side storage and built-in power.",
     iconName: "CheckSquare"
   },
   {
     id: 5,
     title: "Utility Cost Estimates",
-    description: "Estimated monthly utility expenses averaging $180 based on 1,249 sq ft, LED lighting, and efficient in-suite HVAC with programmable thermostat.",
+    description: "Projected monthly utility costs for 1,249 sq ft including hydro, water, HVAC, and high-speed internet based on building systems and energy-efficient features.",
     iconName: "DollarSign"
   },
   {
     id: 6,
     title: "Local Amenities Guide",
-    description: "Curated directory of shopping, dining, recreation, and entertainment within walking distance of 80 John St #2912, including insider recommendations.",
+    description: "Curated directory of shopping, dining, recreation, and entertainment within walking distance of 80 John St Unit 2912, including insider recommendations.",
     iconName: "Map"
   },
   {
     id: 7,
     title: "Home Inspection Tips",
-    description: "Professional guidance focusing on the 2021 custom kitchen and fully retiled bathrooms, plus key mechanical and building systems to evaluate in a condo tower.",
+    description: "Professional guidance focusing on the 2021 kitchen and bathroom renovations, tile workmanship, plumbing/venting, and curtain-wall window seals and HVAC performance.",
     iconName: "Search"
   },
   {
@@ -249,25 +296,11 @@ export const packageItems = [
   }
 ];
 
-// neighborhood configuration
-export const neighborhood = {
-  name: "Entertainment District",
-  city: "Toronto",
-  description: "Toronto's Entertainment District is the city's premier destination for culture, dining, and urban living, known for its vibrant atmosphere and world-class amenities.",
-  highlights: [
-    "Steps to theaters, dining, and entertainment venues",
-    "Direct access to PATH underground walkway", 
-    "TTC subway and streetcar connections",
-    "Walk to financial district and shopping",
-    "Vibrant urban lifestyle with 95/100 walk score"
-  ]
-};
-
 // property configuration
 export const property = {
   name: "80 John St",
   address: {
-    street: "80 John St #2912",
+    street: "80 John St Unit 2912",
     city: "Toronto",
     state: "ON",
     zip: "M5V 3X4",
@@ -277,35 +310,35 @@ export const property = {
   beds: 2,
   baths: 2,
   sqft: 1249,
-  lotSize: "30 x 120 ft",
+  lotSize: "N/A (Condominium)",
   yearBuilt: 2010,
   type: "Condo Apartment",
   status: "For Sale",
-  description: "Sophisticated condo apartment offering turnkey urban luxury, dramatic floor-to-ceiling glazing without bulkheads, cohesive 2021 renovations, and walk-to-everything convenience in Toronto's Entertainment District.",
-  shortDescription: "Turnkey luxury condo in Toronto’s Entertainment District with parking",
-  longDescription: "Elevated downtown living in a rare Loren-style 2+Den, 2-bath suite (1,249 sf) with true floor-to-ceiling windows—no bulkheads—delivering uninterrupted light and views. A cohesive $90K 2021 renovation reimagines the kitchen and bathrooms with designer finishes, an enlarged island with power, and consistent materiality. Enjoy southeast exposure, a usable 143 sf balcony, parking, and an owned locker. Steps to theatres, dining, PATH, TTC, and the financial core.",
+  description: "Sophisticated condo apartment offering sun-filled open living, true floor-to-ceiling windows, and cohesive 2021 renovations in Torontos Entertainment District, with southeast exposure, parking, locker, and a 143 sq ft usable balcony.",
+  shortDescription: "Turnkey luxury condo with true floor-to-ceiling windows downtown",
+  longDescription: "Set high above King Street, this refined 2-bedroom plus den residence showcases an uninterrupted wall of glass, southeast exposure, and a cohesive $90K 2021 renovation. A custom kitchen with an enlarged island (storage and built in power) anchors open living/dining, while both bathrooms are retiled floor to ceiling. Enjoy a functional den, 143 sq ft balcony, parking, and lockersteps to theatres, dining, TTC, and the Financial District.",
   mainFeatures: [],
   propertyType: "Condo Apartment",
   heroImage: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1757004589506-2912-80 John St-01.jpg",
-  heroCaption: "Turnkey luxury condo in Toronto’s Entertainment District with parking"
+  heroCaption: "Turnkey luxury condo with true floor-to-ceiling windows downtown"
 };
 
 // propertyFeatures configuration
 export const propertyFeatures = [
-  "Custom-designed kitchen with enlarged island, seating-side cabinet storage, and integrated power outlet for seamless cooking, work, and entertaining",
-  "Open-concept living and dining framed by true floor-to-ceiling glazing for maximum light, bigger views, and dramatic first impressions",
-  "Primary bedroom with generous proportions and bright southeast outlook for calm, comfortable rest",
-  "Designer-renovated bathrooms fully retiled floor-to-ceiling with new vanities, fixtures, and toilets for a luxe, cohesive look",
-  "Functional den offering a quiet, dedicated workspace or guest nook without compromising main living areas",
-  "Energy-efficient double-pane curtain-wall glazing and predominantly LED lighting for comfort and lower operating costs",
-  "Individually controlled in-suite HVAC with programmable thermostat for year-round climate control",
-  "Rare no-bulkhead design in principal rooms delivering uninterrupted glass and skyline wow factor",
-  "Consistent, designer-level finish across kitchen and baths elevating the entire home’s feel",
-  "143 sq ft balcony sized for real outdoor living—dining, lounging, and entertaining",
-  "Parking and owned locker provide turnkey downtown convenience and storage",
-  "Pre-wired for high-speed internet and smart-home ready for easy thermostat, lock, and lighting upgrades",
-  "Southeast exposure balances natural light and privacy without harsh late-afternoon glare",
-  "Cohesive 2021 renovation investment (~$90K) minimizing future maintenance and upgrade needs"
+  "Custom-designed kitchen with enlarged island featuring seating-side cabinet storage and a built-in power outlet for laptops, appliances, and entertaining",
+  "Open-concept living/dining framed by true floor-to-ceiling glazing for dramatic light and skyline views",
+  "No bulkheads or knee walls in principal rooms, maximizing glass height and uninterrupted sightlines",
+  "Primary bathroom fully retiled floor-to-ceiling with modern vanity, fixtures, and improved moisture protection",
+  "Second bathroom upgraded to the same cohesive 2021 specification for a consistent, elevated feel",
+  "Functional den provides a quiet office or guest space without encroaching on the main living area",
+  "Energy-efficient double-pane curtain-wall windows deliver abundant natural light with thermal comfort",
+  "Individually controlled in-suite HVAC with programmable thermostat for year-round comfort",
+  "Predominantly LED lighting post-renovation for improved efficiency and ambiance",
+  "Smart-home ready infrastructure with pre-wiring for high-speed internet, easy smart lock/thermostat integration, and mesh Wi Fi",
+  "143 sq ft usable balcony sized for dining/seating an outdoor extension of the living space",
+  "Southeast exposure offers bright, consistent daylight without harsh late-afternoon glare",
+  "Owned parking space and on-title locker for turnkey downtown convenience",
+  "Cohesive designer-level finishes across kitchen and baths materials and hardware match for a polished, premium look"
 ];
 
 // siteBranding configuration
@@ -329,36 +362,36 @@ export const siteBranding = {
 
 // siteMetadata configuration
 export const siteMetadata = {
-  title: "80 John St #2912 | Turnkey Luxury Condo | Downtown Toronto",
-  description: "Turnkey 2+Den condo with no-bulkhead floor-to-ceiling windows, $90K 2021 renovation, 143 sf balcony, and parking in the Entertainment District. Book a tour.",
-  keywords: "condo apartment, Toronto real estate, Entertainment District, luxury condo, floor-to-ceiling windows, 2 bed plus den, parking included, virtual tour, $1,495,000",
+  title: "80 John St Unit 2912 | Turnkey Luxury Condo | Toronto",
+  description: "Discover this sophisticated condo with true floor-to-ceiling windows, a $90K 2021 reno, and a 143 sq ft balcony in the Entertainment District. Book a tour.",
+  keywords: "condo apartment, Toronto real estate, Entertainment District, floor-to-ceiling windows, renovated condo, 2 bedroom 2 bath, downtown Toronto, balcony, parking and locker, $1,495,000",
   ogImage: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1757004589506-2912-80 John St-01.jpg",
   ogType: "website",
   twitterCard: "summary_large_image",
-  canonical: "https://80john.com"
+  canonical: "https://80johnst.com"
 };
 
 // testimonials configuration
 export const testimonials = [
   {
     id: 1,
-    name: "David Chen",
+    name: "Nadia Patel",
     role: "Recent Homebuyer",
-    content: "Arslan Ahmed guided us to a suite that feels bigger than the square footage. The true floor-to-ceiling windows and cohesive renovation were exactly what we wanted—plus parking in the heart of the city.",
-    avatar: "https://randomuser.me/api/portraits/men/22.jpg"
+    content: "Working with Arslan Ahmed was effortless. The true floor-to-ceiling windows and the functional den made this condo perfect for our hybrid work life. The enlarged island with built-in power is a game changer.",
+    avatar: "https://randomuser.me/api/portraits/women/32.jpg"
   },
   {
     id: 2,
-    name: "Jennifer Liu",
+    name: "Daniel Wong",
     role: "Interior Designer",
-    content: "The rare no-bulkhead glazing and consistent materials across the kitchen and baths show thoughtful design. The enlarged island with built-in power is both elegant and incredibly functional. Arslan presented every detail clearly.",
-    avatar: "https://randomuser.me/api/portraits/women/44.jpg"
+    content: "The cohesive 2021 renovation stands outmatching finishes in the kitchen and both baths create a seamless, elevated look. Arslan highlighted the no-bulkhead glazing, which truly sets this suite apart in the core.",
+    avatar: "https://randomuser.me/api/portraits/men/45.jpg"
   },
   {
     id: 3,
     name: "Mark Williams",
     role: "Neighborhood Resident",
-    content: "Living in the Entertainment District, you appreciate walkability to theatres, TTC, and PATH. Suites like this, with real outdoor space and parking, are special. Arslan knows how to highlight what matters here.",
+    content: "Ive lived in the Entertainment District for 6 years. You cant beat the walkability to theatres, restaurants, and TTC. Suites with this level of light and usable balcony space are rare here.",
     avatar: "https://randomuser.me/api/portraits/men/35.jpg"
   }
 ];
